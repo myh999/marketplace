@@ -23,7 +23,7 @@ Proceed to `localhost:4000/graphql` to access the playground. The following feat
 
 A sample set of products are already available in a Firebase Real Time Database. To add a product to the database, simply send a POST request similar to the following:
 ```bash
-curl -X POST -H "Content-Type:application/json" https://us-central1-shopify-challenge-s19.cloudfunctions.net/addProduct -d '{"title":"item6","price":3.23,"inventory":4}'
+curl -X POST -H "Content-Type:application/json" https://us-central1-shopify-challenge-s19.cloudfunctions.net/addProduct -d '{"title":"item10","price":3.23,"inventory":4}'
 ```
 
 ### GraphQL Schema
